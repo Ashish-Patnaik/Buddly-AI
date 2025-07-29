@@ -1,6 +1,6 @@
 // src/services/apiService.js
 
-const API_BASE_URL = process.env.PUBLIC_SERVER_URL; // Using the same origin for the server
+const API_BASE_URL = import.meta.env.VITE_PUBLIC_SERVER_URL;
 
 async function sendRequest(endpoint, body) {
     try {
