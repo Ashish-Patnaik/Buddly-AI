@@ -18,6 +18,11 @@
 
 ---
 
+## Youtube Demo
+
+🔥 [Video Demo](https://youtu.be/8_ge6l-V088)
+
+
 ## 📸 Screenshots
 <img width="1360" height="530" alt="image" src="https://github.com/user-attachments/assets/e57e0d31-8132-4b53-a63a-07c86f6ca482" />
 
