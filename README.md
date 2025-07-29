@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Buddly AI</h1>
-<p align="center"><em>Build websites by chatting with an AI 🤖⚡</em></p>
+<p align="center"><em>Build & Edit websites by chatting with an AI 🤖⚡</em></p>
 
 <p align="center">
   <a href="https://buddlyai.netlify.app"><strong>🌐 Live Demo →</strong></a>
@@ -12,7 +12,7 @@
 
 # 🌟 Buddly AI — From Prompt to Prototype in Seconds
 
-**Buddly AI** is a modern, web-based development environment that bridges the gap between idea and execution. Powered by Google’s Gemini, this intelligent assistant enables you to build, preview, and iterate on full web applications with just a natural language prompt.
+**Buddly AI** is a modern, web-based development environment that bridges the gap between idea and execution. Powered by AI, this intelligent assistant enables you to build, preview, and iterate on full web applications with just a natural language prompt.
 
 🔥 [Live Demo](https://buddlyai.netlify.app/)
 
@@ -26,7 +26,7 @@
 ## ✨ Features
 
 - 🤖 **AI-Powered Code Generation**  
-  Write a simple prompt like _“Build a portfolio website with 3 sections”_ and Buddly AI will generate fully structured HTML, CSS, and JavaScript code using Google's **Gemini API**.
+  Write a simple prompt like _“Build a portfolio website with 3 sections”_ and Buddly AI will generate fully structured HTML, CSS, and JavaScript code.
 
 - 💬 **Conversational Follow-ups**  
   Not satisfied with the first draft? Just say _“Change the background to dark blue”_ or _“Add a contact form”_ and the AI will modify your existing code intelligently.
