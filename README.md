@@ -143,5 +143,3 @@ Inspired by the idea that coding should feel magical, Buddly AI gives creators a
 
 Built with ❤️ by Ashish Patnaik
 ---
-
-Let me know if you want this saved as a file or want a README with visuals like badges or screenshots embedded
