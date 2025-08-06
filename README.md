@@ -112,7 +112,14 @@ This project runs two servers: one for the backend API and another for the front
 ```
 node ollama.js
 ```
-2.If you want to run Gemini than run server.js 
+2.If you want to run Gemini than run server.js
+- Configure gemini model in server.js
+```
+const MODEL_NAME = 'your gemini model'
+```
+
+- Than run 
+
 ```
 node server.js
 ```
