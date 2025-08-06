@@ -180,6 +180,7 @@ app.post('/retry', async (req, res) => {
 
 // --- Start Server ---
 app.listen(PORT, () => {
-    console.log(`🤖 Lovable AI (Ollama) server running on http://localhost:${PORT}`);
+    console.log(`🤖 Buddly AI (Ollama) server running on http://localhost:${PORT}`);
     console.log(`   Using model: ${OLLAMA_MODEL_NAME}`);
 });
+
