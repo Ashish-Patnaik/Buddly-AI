@@ -12,7 +12,7 @@
 
 # 🌟 Buddly AI — From Prompt to Prototype in Seconds
 
-**Buddly AI** is a modern, web-based development environment that bridges the gap between idea and execution. Powered by AI, this intelligent assistant enables you to build, preview, and iterate on full web applications with just a natural language prompt.
+**Buddly AI** is a modern, web-based development environment that bridges the gap between idea and execution. Inspired by platforms like Lovable, v0, and Bolt, it empowers developers to build, preview, and iterate on full web applications using just natural language prompts. With integrated support for local Ollama models, Buddly AI runs intelligent AI assistants entirely on your machine—ensuring privacy, speed, and full offline capability.
 
 🔥 [Live Demo](https://buddlyai.netlify.app/)
 
@@ -99,15 +99,24 @@ VITE_GEMINI_API_KEY=your_google_gemini_api_key_here
 # Your Pixabay API Key
 VITE_PIXABAY_API_KEY=your_pixabay_api_key_here
 🔐 These keys are required for AI code generation and fetching placeholder images.
+
+#Ollama Model
+OLLAMA_MODEL="your ollama model"
 ```
 
 ### 🧪 Running the Application
 This project runs two servers: one for the backend API and another for the frontend UI.
 
 ▶️ Start the Backend API Server (Terminal 1)
+1.If you want to run with Ollama than run ollama.js
 ```
-npm run server
+node ollama.js
 ```
+2.If you want to run Gemini than run server.js 
+```
+node server.js
+```
+
 You should see:
 ```
 🤖 Buddly AI API server running on http://localhost:3001
@@ -122,23 +131,14 @@ Open your browser at:
 http://localhost:5173
 ```
 
-## 🔧 Available Scripts
-Script	Description
-```
-npm run dev	Starts the Vite development server
-npm run server	Starts the Node.js/Express backend API
-npm run build	Builds the frontend app for production
-npm run preview	Previews the production build locally
-```
-
 ## 📁 Tech Stack
 1. Frontend: Vite + Vanilla JS + CodeMirror
 
 2. Backend: Node.js + Express
 
-3. AI: Google Gemini (via @google/generative-ai)
+3. AI: Google Gemini (via @google/generative-ai), Ollama
 
-4. Images: Pixabay API with secure proxying
+4. Images: Pixabay API with secure proxying (Optional if used ollama)
 
 5. State: LocalStorage (for history and state persistence)
 
