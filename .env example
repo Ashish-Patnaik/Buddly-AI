@@ -1,0 +1,5 @@
+VITE_GEMINI_API_KEY="your gemini api key"
+VITE_PIXABAY_API_KEY="your pixabay api key for images"
+OLLAMA_MODEL="gemma3:1b-it-qat"  //your ollama model if used ollama
+
+ 
